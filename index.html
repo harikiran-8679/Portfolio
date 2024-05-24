@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  </head>
+<body>
+  <div id="bg">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="index.html">Hari Kiran</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-symbols-outlined">
+          more_vert
+        </span>
+      </button>
+      <div class="container-fluid">
+      <div class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#bg">Home</a>
+          <a class="nav-link" href="#technologies">Technology</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" id="home" style="height: 100rem;">
+      <center><h1  class="hm">HELLO GUYS</h1></center><br><br><br>
+      <h1 class="hm1">Glad to meet you😊</h1><br><br><br>
+      <h1 class="hm2">This is Hari Kiran</h1>
+      <p class="hm3"><marquee behavior="scroll" direction="left" width="40%" scrollamount="4" class="markuee">I'm a Diploma student, Programmer, Web-Developer..</marquee></p>
+  </div>
+  </div>
+
+  <div class="technology" id="technologies">
+    <div>
+      <b><h1 class="tech">Technologies</h1></b>
+    </div>
+    <div class="row techpad">
+      <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+        <img src="G:\bootstrap\images\c.jpg" class="card-img-top techim" id="img" alt="C">      
+    </div>
+    
+    <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+      <img src="G:\bootstrap\images\cpp.jpg" class="card-img-top techim" id="img" alt="C++">
+    </div>
+
+    <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+      <img src="G:\bootstrap\images\html.jpg" class="card-img-top techim" id="img" alt="Html">
+    </div>
+
+    <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+      <img src="G:\bootstrap\images\css.jpg" class="card-img-top techim" id="img" alt="Css">
+    </div>
+
+    <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+      <img src="G:\bootstrap\images\js.jpg" class="card-img-top techim" id="img" alt="JavaScript">
+    </div>
+
+    <div class="card col-lg-3 col-md-5 col-sm-11 imgcon">
+      <img src="G:\bootstrap\images\python.jpg" class="card-img-top techim" id="img" alt="python">
+    </div>
+
+  </div>
+  </div>
+  
+  <div class="container-fluid project" id="projects">
+    <div>
+      <h1 class="ph">Projects</h1>    
+    </div>
+    <div class="row projectrow">
+      <div class="card col-lg-3 col-md-5 col-sm-11">
+        <img src="G:\bootstrap\images\bankingmanagementsystem.jpg" class="card-img-top pro-img" alt="Banking Management System">
+        <div class="card-body">
+          <h5 class="card-title bmsh">Bank Management System</h5>
+          <p class="card-text">Bank Management System is a project which involves performing some basic banking operations.</p>
+          <center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#banksystemmodal">
+            Know more
+          </button></center>
+
+
+          <div class="modal fade" id="banksystemmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Banking Management System</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Bank Management System is a project which is created by using C programming language.
+                  In this project it involves various banking operations such as deposit, withdraw, transfer the money ....etc.</p> 
+                  <p>In this project there are some operations like deposit the money, withdraw the money, transfer the money, know the account details 
+                  and know the transaction details. 
+                  By using these banking operations we can work with an account. </p>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+    <div class="card col-lg-3 col-md-5 col-sm-11" >
+      <img src="images/tictactoe.jpg" class="card-img-top pro-img" alt="Tic Tac Toe">
+      <div class="card-body">
+        <h5 class="card-title ttth">Tic Tac Toe</h5>
+        <p class="card-text">I've Created a basic Tic Tac Toe game using C programming language</p>
+        <center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dummymodel">
+            Know more
+          </button></center>
+
+
+          <div class="modal fade" id="dummymodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Tic Tac Toe</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Its a game which is created using C. In this game there are two choices for Player where he/she can play against computer or another Player.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+    <div class="card col-lg-3 col-md-5 col-sm-11">
+      <img src="G:\bootstrap\images\blog.jpg" class="card-img-top pro-img madalimg" alt="Blog">
+      <div class="card-body">
+        <h5 class="card-title blogtxt">Blog</h5>
+        <p class="card-text  ">A Blog created using Html and Css explaining C Programming Language.</p>
+        <center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogmodal">
+            Know more
+          </button></center>
+
+
+          <div class="modal fade" id="blogmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Blog</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>A blog (a shortened version of “weblog”) is an online journal or informational website displaying information in reverse chronological order, with the latest posts appearing first, at the top.
+                   It is a platform where a writer or a group of writers share their views on an individual subject.
+                    Here I have written a blog explaining basic C programming Language .</p>
+                    <p>C programming Language is a basic programming language. 
+                        C programming Language is a procedure oriented programming language which executes the program 
+                        step by step.
+                    </p>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary blog-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer id="footer">
+    <div class="container-fluid" id="contacts">
+      <center><h2 class="contacthead">Contact info</h2></center>
+      <div class="row contpad">
+        <div class="col-lg-8 col-md-12 col-sm-12 h-100 g-3 hel about">
+            <b><h3 style="margin-left: 3rem;">ABOUT</h3></b>
+            <p style=" margin-left: 3rem; font-size: 1.2rem">
+                This is my portfolio website designed by using Bootstrap, Html, Css.
+                You can download the code or have a look at it in my <a href="https://github.com/harikiran-8679" style="font-family: none ; text-decoration: none ; ">github</a> repository.
+            </p>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 h-100 g-3 hel address">
+          <h3>Address: </h3>
+          
+            Aditya Polytechnic Colleges, <br>
+            ADB Road,<br>
+            Surampalem-533462,<br> 
+            Andhra Pradesh,<br>
+            India.
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12 h-100 g-3 hel map" data-aos="zoom-in">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7810355.615842854!2d72.31481842500001!3d17.089754500000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3782e2f62a8475%3A0x67ca377d8d1e4c44!2sAditya%20Polytechnic%20Colleges!5e0!3m2!1sen!2sin!4v1716269458598!5m2!1sen!2sin"  width="100%" height="400"  style="border:0;position: relative;width: 95%;top: 50px; margin-left: 3rem;border-radius: 15px;display: inline-block;overflow: hidden;" allowfullscreen="0" loading="lazy" ></iframe>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 h-100 g-5 hel contactdet">
+            <h5>Mail me at
+            <a class="align-bottom " role="icon" href="mailto:harikiran8679@gmail.com"><img src="G:\bootstrap\images\gmail.png" width="30px" height="30px"></a></h5>
+            <h5>Call me at
+            <a class="mobilesonly " role="icon" href="tel:+919490878837"><img src="G:\bootstrap\images\phone.png" width="30px" height="30px"></a></h5>
+        </div>
+      </div>
+    </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
