@@ -180,7 +180,7 @@
 {
   text-align: left;
   /* margin-left: 20px; */
-  padding-left: 3rem !important;
+  padding-left: 2rem !important;
 }
 
 .contacthead
@@ -200,7 +200,7 @@
   margin-left: rem;
   height: 100% !important;
   text-align: none;
-  padding-left: 3rem !important;
+  padding-left: 2rem !important;
   margin-top: 6rem !important;
 }
 
@@ -215,10 +215,6 @@
   box-sizing: border-box;
 }
 
-.hel
-{
-  padding: 10px;
-}
 
 .nav-link, .navbar-brand, .material-symbols-outlined 
 {
